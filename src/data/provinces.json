@@ -1,0 +1,298 @@
+[
+  {
+    "id": "DO-01",
+    "code": "01",
+    "name": "Distrito Nacional",
+    "capital": "Santo Domingo",
+    "abbreviation": "DN",
+    "regionId": "10",
+    "aliases": [
+      "DN",
+      "Santo Domingo de Guzmán",
+      "Santo Domingo de Guzman"
+    ]
+  },
+  {
+    "id": "DO-02",
+    "code": "02",
+    "name": "Azua",
+    "capital": "Azua de Compostela",
+    "abbreviation": "AZ",
+    "regionId": "05",
+    "aliases": []
+  },
+  {
+    "id": "DO-03",
+    "code": "03",
+    "name": "Baoruco",
+    "capital": "Neiba",
+    "abbreviation": "BR",
+    "regionId": "06",
+    "aliases": []
+  },
+  {
+    "id": "DO-04",
+    "code": "04",
+    "name": "Barahona",
+    "capital": "Santa Cruz de Barahona",
+    "abbreviation": "BH",
+    "regionId": "06",
+    "aliases": []
+  },
+  {
+    "id": "DO-05",
+    "code": "05",
+    "name": "Dajabón",
+    "capital": "Dajabón",
+    "abbreviation": "DA",
+    "regionId": "04",
+    "aliases": []
+  },
+  {
+    "id": "DO-06",
+    "code": "06",
+    "name": "Duarte",
+    "capital": "San Francisco de Macorís",
+    "abbreviation": "DU",
+    "regionId": "03",
+    "aliases": []
+  },
+  {
+    "id": "DO-07",
+    "code": "07",
+    "name": "Elías Piña",
+    "capital": "Comendador",
+    "abbreviation": "EP",
+    "regionId": "07",
+    "aliases": []
+  },
+  {
+    "id": "DO-08",
+    "code": "08",
+    "name": "El Seibo",
+    "capital": "Santa Cruz del Seibo",
+    "abbreviation": "SE",
+    "regionId": "09",
+    "aliases": []
+  },
+  {
+    "id": "DO-09",
+    "code": "09",
+    "name": "Espaillat",
+    "capital": "Moca",
+    "abbreviation": "ES",
+    "regionId": "01",
+    "aliases": []
+  },
+  {
+    "id": "DO-10",
+    "code": "10",
+    "name": "Independencia",
+    "capital": "Jimaní",
+    "abbreviation": "IN",
+    "regionId": "06",
+    "aliases": []
+  },
+  {
+    "id": "DO-11",
+    "code": "11",
+    "name": "La Altagracia",
+    "capital": "Salvaleón de Higüey",
+    "abbreviation": "AL",
+    "regionId": "08",
+    "aliases": []
+  },
+  {
+    "id": "DO-12",
+    "code": "12",
+    "name": "La Romana",
+    "capital": "La Romana",
+    "abbreviation": "RO",
+    "regionId": "08",
+    "aliases": []
+  },
+  {
+    "id": "DO-13",
+    "code": "13",
+    "name": "La Vega",
+    "capital": "Concepción de La Vega",
+    "abbreviation": "VE",
+    "regionId": "02",
+    "aliases": []
+  },
+  {
+    "id": "DO-14",
+    "code": "14",
+    "name": "María Trinidad Sánchez",
+    "capital": "Nagua",
+    "abbreviation": "MT",
+    "regionId": "03",
+    "aliases": []
+  },
+  {
+    "id": "DO-15",
+    "code": "15",
+    "name": "Monte Cristi",
+    "capital": "San Fernando de Monte Cristi",
+    "abbreviation": "MC",
+    "regionId": "04",
+    "aliases": []
+  },
+  {
+    "id": "DO-16",
+    "code": "16",
+    "name": "Pedernales",
+    "capital": "Pedernales",
+    "abbreviation": "PN",
+    "regionId": "06",
+    "aliases": []
+  },
+  {
+    "id": "DO-17",
+    "code": "17",
+    "name": "Peravia",
+    "capital": "Baní",
+    "abbreviation": "PV",
+    "regionId": "05",
+    "aliases": []
+  },
+  {
+    "id": "DO-18",
+    "code": "18",
+    "name": "Puerto Plata",
+    "capital": "San Felipe de Puerto Plata",
+    "abbreviation": "PP",
+    "regionId": "01",
+    "aliases": []
+  },
+  {
+    "id": "DO-19",
+    "code": "19",
+    "name": "Hermanas Mirabal",
+    "capital": "Salcedo",
+    "abbreviation": "HM",
+    "regionId": "03",
+    "aliases": []
+  },
+  {
+    "id": "DO-20",
+    "code": "20",
+    "name": "Samaná",
+    "capital": "Santa Bárbara de Samaná",
+    "abbreviation": "SM",
+    "regionId": "03",
+    "aliases": []
+  },
+  {
+    "id": "DO-21",
+    "code": "21",
+    "name": "San Cristóbal",
+    "capital": "San Cristóbal",
+    "abbreviation": "SC",
+    "regionId": "05",
+    "aliases": []
+  },
+  {
+    "id": "DO-22",
+    "code": "22",
+    "name": "San Juan",
+    "capital": "San Juan de la Maguana",
+    "abbreviation": "SJ",
+    "regionId": "07",
+    "aliases": [
+      "San Juan de la Maguana"
+    ]
+  },
+  {
+    "id": "DO-23",
+    "code": "23",
+    "name": "San Pedro de Macorís",
+    "capital": "San Pedro de Macorís",
+    "abbreviation": "PM",
+    "regionId": "09",
+    "aliases": []
+  },
+  {
+    "id": "DO-24",
+    "code": "24",
+    "name": "Sánchez Ramírez",
+    "capital": "Cotuí",
+    "abbreviation": "SR",
+    "regionId": "02",
+    "aliases": []
+  },
+  {
+    "id": "DO-25",
+    "code": "25",
+    "name": "Santiago",
+    "capital": "Santiago de los Caballeros",
+    "abbreviation": "ST",
+    "regionId": "01",
+    "aliases": []
+  },
+  {
+    "id": "DO-26",
+    "code": "26",
+    "name": "Santiago Rodríguez",
+    "capital": "San Ignacio de Sabaneta",
+    "abbreviation": "SZ",
+    "regionId": "04",
+    "aliases": []
+  },
+  {
+    "id": "DO-27",
+    "code": "27",
+    "name": "Valverde",
+    "capital": "Santa Cruz de Mao",
+    "abbreviation": "VA",
+    "regionId": "04",
+    "aliases": []
+  },
+  {
+    "id": "DO-28",
+    "code": "28",
+    "name": "Monseñor Nouel",
+    "capital": "Bonao",
+    "abbreviation": "MN",
+    "regionId": "02",
+    "aliases": []
+  },
+  {
+    "id": "DO-29",
+    "code": "29",
+    "name": "Monte Plata",
+    "capital": "Monte Plata",
+    "abbreviation": "MP",
+    "regionId": "09",
+    "aliases": []
+  },
+  {
+    "id": "DO-30",
+    "code": "30",
+    "name": "Hato Mayor",
+    "capital": "Hato Mayor del Rey",
+    "abbreviation": "HY",
+    "regionId": "09",
+    "aliases": []
+  },
+  {
+    "id": "DO-31",
+    "code": "31",
+    "name": "San José de Ocoa",
+    "capital": "San José de Ocoa",
+    "abbreviation": "JO",
+    "regionId": "05",
+    "aliases": []
+  },
+  {
+    "id": "DO-32",
+    "code": "32",
+    "name": "Santo Domingo",
+    "capital": "Santo Domingo Este",
+    "abbreviation": "SD",
+    "regionId": "10",
+    "aliases": [
+      "Provincia Santo Domingo"
+    ]
+  }
+]

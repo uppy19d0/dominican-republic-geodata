@@ -1,0 +1,12 @@
+[
+  { "id": "01", "name": "Cibao Norte", "aliases": [] },
+  { "id": "02", "name": "Cibao Sur", "aliases": [] },
+  { "id": "03", "name": "Cibao Nordeste", "aliases": [] },
+  { "id": "04", "name": "Cibao Noroeste", "aliases": [] },
+  { "id": "05", "name": "Valdesia", "aliases": [] },
+  { "id": "06", "name": "Enriquillo", "aliases": [] },
+  { "id": "07", "name": "El Valle", "aliases": ["Valle"] },
+  { "id": "08", "name": "Yuma", "aliases": [] },
+  { "id": "09", "name": "Higuamo", "aliases": [] },
+  { "id": "10", "name": "Ozama o Metropolitana", "aliases": ["Ozama", "Metropolitana"] }
+]

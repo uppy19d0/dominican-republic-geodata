@@ -1,0 +1,70 @@
+{
+  "name": "dominican-republic-geodata",
+  "version": "0.1.0",
+  "description": "Typed, zero-dependency territorial data for the Dominican Republic.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./provinces": {
+      "types": "./dist/provinces.d.ts",
+      "import": "./dist/provinces.js",
+      "require": "./dist/provinces.cjs"
+    },
+    "./regions": {
+      "types": "./dist/regions.d.ts",
+      "import": "./dist/regions.js",
+      "require": "./dist/regions.cjs"
+    },
+    "./metadata": {
+      "types": "./dist/metadata.d.ts",
+      "import": "./dist/metadata.js",
+      "require": "./dist/metadata.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup && node scripts/verify-package.mjs",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsup": "^8.5.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0"
+  },
+  "keywords": [
+    "dominican-republic",
+    "republica-dominicana",
+    "provinces",
+    "regions",
+    "geodata",
+    "territorial-data",
+    "typescript"
+  ],
+  "author": {
+    "name": "Luis Aneuris Tavarez De Jesus",
+    "url": "https://www.ltavarez.me/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

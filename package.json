@@ -1,6 +1,6 @@
 {
   "name": "dominican-republic-geodata",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Typed, zero-dependency territorial data for the Dominican Republic.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -69,5 +69,13 @@
   },
   "overrides": {
     "esbuild": "^0.28.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uppy19d0/dominican-republic-geodata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uppy19d0/dominican-republic-geodata/issues"
+  },
+  "homepage": "https://github.com/uppy19d0/dominican-republic-geodata#readme"
 }

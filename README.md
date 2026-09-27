@@ -1,5 +1,9 @@
 # dominican-republic-geodata
 
+[![CI](https://github.com/uppy19d0/dominican-republic-geodata/actions/workflows/ci.yml/badge.svg)](https://github.com/uppy19d0/dominican-republic-geodata/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/dominican-republic-geodata.svg)](https://www.npmjs.com/package/dominican-republic-geodata)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
 Typed, zero-dependency territorial data for the Dominican Republic. The first
 release contains the 10 planning regions and 32 province-level divisions with
 stable codes, capitals, aliases, and parent relationships.
@@ -32,6 +36,14 @@ import { PROVINCES, findProvince } from "dominican-republic-geodata/provinces";
 import { REGIONS, findRegion } from "dominican-republic-geodata/regions";
 import { DATASET_METADATA } from "dominican-republic-geodata/metadata";
 ```
+
+## Production readiness
+
+- Zero runtime dependencies.
+- Typed exports for Node, browsers, bundlers, and TypeScript projects.
+- CI validates TypeScript, tests, build output, package exports, and npm package contents.
+- Releases are published from version tags with npm provenance support.
+- Public security, contribution, and code of conduct policies are included in the repository and npm package.
 
 ## Data scope and source
 

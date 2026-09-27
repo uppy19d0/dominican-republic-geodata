@@ -7,7 +7,7 @@ export const DATASET_METADATA = Object.freeze({
   source: "Oficina Nacional de Estadística (ONE)",
   sourceUrl:
     "https://www.one.gob.do/publicaciones/2021/division-territorial-2021/",
-  scopes: ["regions", "provinces"],
+  scopes: ["regions", "provinces", "municipalities"],
   notes:
-    "Version 0.1 includes region and province records. Municipalities and geometry require separately validated source data.",
+    "Includes regions, provinces and municipality records from the validated ONE territorial division reference. Geometry remains packaged by dominican-republic-map.",
 } as const satisfies TerritorialDatasetMetadata);

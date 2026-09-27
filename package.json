@@ -1,6 +1,6 @@
 {
   "name": "dominican-republic-geodata",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Typed, zero-dependency territorial data for the Dominican Republic.",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -26,6 +26,11 @@
       "types": "./dist/metadata.d.ts",
       "import": "./dist/metadata.js",
       "require": "./dist/metadata.cjs"
+    },
+    "./municipalities": {
+      "types": "./dist/municipalities.d.ts",
+      "import": "./dist/municipalities.js",
+      "require": "./dist/municipalities.cjs"
     },
     "./package.json": "./package.json"
   },
@@ -56,6 +61,8 @@
     "provinces",
     "regions",
     "geodata",
+    "municipalities",
+    "municipios",
     "territorial-data",
     "typescript"
   ],

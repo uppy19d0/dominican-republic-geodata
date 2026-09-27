@@ -6,6 +6,7 @@ export default defineConfig({
     provinces: "src/provinces.ts",
     regions: "src/regions.ts",
     metadata: "src/metadata.ts",
+    municipalities: "src/municipalities.ts",
   },
   format: ["esm", "cjs"],
   dts: true,

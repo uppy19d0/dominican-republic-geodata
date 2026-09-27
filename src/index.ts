@@ -15,10 +15,27 @@ export {
   REGION_IDS,
   REGIONS,
 } from "./regions";
+export {
+  findMunicipality,
+  getMunicipalitiesByProvince,
+  getMunicipality,
+  getProvinceClickPayload,
+  getProvinceGeodata,
+  getProvinceMainMunicipality,
+  getProvinceMunicipalities,
+  isMunicipalityId,
+  MUNICIPALITIES,
+  MUNICIPALITIES_BY_PROVINCE,
+  MUNICIPALITY_BY_ID,
+  MUNICIPALITY_IDS,
+} from "./municipalities";
 export { DATASET_METADATA } from "./metadata";
 export { matchesPlaceName, normalizePlaceName } from "./normalize";
 export type {
+  Municipality,
   Province,
+  ProvinceClickPayload,
+  ProvinceGeodata,
   ProvinceId,
   Region,
   RegionId,

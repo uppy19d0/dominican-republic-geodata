@@ -4,9 +4,7 @@
 [![npm](https://img.shields.io/npm/v/dominican-republic-geodata.svg)](https://www.npmjs.com/package/dominican-republic-geodata)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-Typed, zero-dependency territorial data for the Dominican Republic. The first
-release contains the 10 planning regions and 32 province-level divisions with
-stable codes, capitals, aliases, and parent relationships.
+Typed, zero-dependency territorial data for the Dominican Republic. It contains the 10 planning regions, 32 province-level divisions, and 158 municipality records including the Distrito Nacional click unit, with stable codes, capitals, aliases, main municipalities, and parent relationships.
 
 ## Install
 
@@ -18,8 +16,12 @@ npm install dominican-republic-geodata
 
 ```ts
 import {
+  findMunicipality,
   findProvince,
   findRegion,
+  getProvinceClickPayload,
+  getProvinceMainMunicipality,
+  getProvinceMunicipalities,
   getProvincesByRegion,
 } from "dominican-republic-geodata";
 
@@ -27,6 +29,14 @@ findProvince("san jose de ocoa"); // DO-31; accents are optional
 findProvince("DN"); // DO-01
 findRegion("Metropolitana"); // region 10
 getProvincesByRegion("Cibao Norte");
+
+getProvinceMainMunicipality("DO-25")?.name; // Santiago de los Caballeros
+getProvinceMunicipalities("DO-25").length; // 10
+findMunicipality("San Victor")?.provinceId; // DO-09
+
+const clickPayload = getProvinceClickPayload("DO-32");
+clickPayload?.mainMunicipality.name; // Santo Domingo Este
+clickPayload?.municipalities.map((municipality) => municipality.name);
 ```
 
 Smaller entry points are also available:
@@ -34,6 +44,7 @@ Smaller entry points are also available:
 ```ts
 import { PROVINCES, findProvince } from "dominican-republic-geodata/provinces";
 import { REGIONS, findRegion } from "dominican-republic-geodata/regions";
+import { MUNICIPALITIES, getProvinceMunicipalities } from "dominican-republic-geodata/municipalities";
 import { DATASET_METADATA } from "dominican-republic-geodata/metadata";
 ```
 
@@ -48,13 +59,13 @@ import { DATASET_METADATA } from "dominican-republic-geodata/metadata";
 ## Data scope and source
 
 The package records the source and reference year in `DATASET_METADATA`. Version
-0.1 covers regions and provinces using the territorial naming and coding model
-published by the Dominican Republic's Oficina Nacional de Estadística (ONE) in
-*División Territorial 2021*.
+0.2 covers regions, provinces, and municipalities using the territorial naming
+and coding model published by the Dominican Republic's Oficina Nacional de
+Estadística (ONE) in *División Territorial 2021*.
 
-Municipalities, municipal districts, sections, neighborhoods, geometry, and
-postal addresses are intentionally outside version 0.1 until their source data
-and redistribution terms are validated.
+Municipal districts, sections, neighborhoods, geometry, and postal addresses are
+outside the package scope. Province geometry is provided by
+`dominican-republic-map`.
 
 Source: [ONE — División Territorial 2021](https://www.one.gob.do/publicaciones/2021/division-territorial-2021/)
 

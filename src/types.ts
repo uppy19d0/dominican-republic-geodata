@@ -60,12 +60,33 @@ export interface Province {
   aliases: readonly string[];
 }
 
+export interface Municipality {
+  id: string;
+  code: string;
+  provinceId: ProvinceId;
+  name: string;
+  slug: string;
+  isMain: boolean;
+  aliases: readonly string[];
+}
+
+export interface ProvinceGeodata extends Province {
+  mainMunicipality: Municipality;
+  municipalities: readonly Municipality[];
+}
+
+export interface ProvinceClickPayload {
+  province: Province;
+  municipalities: readonly Municipality[];
+  mainMunicipality: Municipality;
+}
+
 export interface TerritorialDatasetMetadata {
   name: string;
   countryCode: "DO";
   referenceYear: number;
   source: string;
   sourceUrl: string;
-  scopes: readonly ("regions" | "provinces")[];
+  scopes: readonly ("regions" | "provinces" | "municipalities")[];
   notes: string;
 }
